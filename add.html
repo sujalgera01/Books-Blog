@@ -3,19 +3,21 @@
 <head>
 	<title>Add Book</title>
 	<link rel="stylesheet" type="text/css" href="add.css">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<h1>Add Book Name</h1>
 	<hr>
 	<div class="Bookbox">
-		<form method="post">
+		<form action="thanks.html" method="post">
 			
 			<label>
 				<div class="l1">
 				Book Name 
 				<br>
 				</div>
-			<input type="text" placeholder="Book" required class="area" >
+			<input type="text" placeholder="Book" class="area" required>
 			</label>
 			<br><br>
 
@@ -24,7 +26,7 @@
 				Author Name
 				<br>
 			</div>
-				<input type="text" placeholder="Author" required class="area">
+				<input type="text" placeholder="Author" class="area" required>
 			</label>
 			<br><br>
 
@@ -33,7 +35,7 @@
 				Date
 				<br>
 			</div>
-				<input type="Date" placeholder="dd/mm/yyyy" required class="area">
+				<input type="Date" placeholder="dd/mm/yyyy" class="area" required>
 			</label>
 			<br><br>
 
@@ -42,11 +44,10 @@
 				Description
 			</div>
 			<br>
-				<textarea rows="5" cols="40" class="area1" placeholder="Write Something..."></textarea>
+				<textarea rows="5" cols="40" class="area1" placeholder="Write Something..." required></textarea>
 			</label>
-				<br><br>
-			<button class="button b1">Reset</button>    
-			<a href="thanks.html" class="button b2">Submit</a>
+				<br><br>   
+			<button class="button b2">Submit</button>
 		</form>
 		
 	</div>

@@ -84,21 +84,8 @@ textarea::placeholder{
 	align-items: flex-start;
 }
 
-.b1 {
-	margin-left: 75px;
-	background-color: #e67e22;
-	border-color: #e67e22;
-	color: white;
-	margin-right: 70px;
-}
-
-.b1:active,
-.b1:hover {
-	background-color: #d35400;
-}
-
 .b2 {
-	margin-left: 60px;
+	margin-left: 175px;
 	background-color: #ffffff;
 	border-color: #e67e22;
 	color: #e67e22;
