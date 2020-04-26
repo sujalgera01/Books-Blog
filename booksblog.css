@@ -18,6 +18,15 @@ body {
 	text-shadow: 2px 2px #000;
 }
 
+span {
+	font-family: 'Dancing Script', cursive;
+}
+
+u {
+	font-family: 'Marck Script', cursive;
+	padding-bottom: 5px;
+}
+
 h1 {
 	font-size: 70px;
 	font-weight: bold;
